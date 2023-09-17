@@ -9,3 +9,7 @@ body{
   background: #F3F3F3;
 }
 
+.disabled-button{
+  background-color: rgb(121, 170, 234);
+  
+}
