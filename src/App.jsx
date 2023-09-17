@@ -40,6 +40,7 @@ function App() {
       <div className='md:flex w-[1440px] mx-auto gap-6'>
         <Blogs 
           handleAddToShoppingcart={handleAddToShoppingcart}
+          remaining={remaining}
           ></Blogs>
         <Shoppingcart 
           shoppingcart={shoppingcart} 

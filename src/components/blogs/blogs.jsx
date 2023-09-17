@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import Blog from "../blog/blog";
 
-const Blogs = ({handleAddToShoppingcart}) => {
+const Blogs = ({handleAddToShoppingcart, remaining}) => {
     const [blogs, setBlogs] = useState([]);  
 
     useEffect( () =>{
@@ -18,6 +18,7 @@ const Blogs = ({handleAddToShoppingcart}) => {
                     key={blog.id}
                     blog={blog} 
                     handleAddToShoppingcart={handleAddToShoppingcart}
+                    remaining={remaining}
                 ></Blog>)
             }
         </div>

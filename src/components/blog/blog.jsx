@@ -6,7 +6,7 @@ const Blog = ({blog, handleAddToShoppingcart}) => {
     const [clickedButtons, setClickedButtons] = useState({});
 
     const handleButtonClick = () => {
-        if (clickedButtons[id]) return;
+        if (clickedButtons[id] || remaining === 0) return;
 
         setClickedButtons((prevState) => ({
             ...prevState,
@@ -43,8 +43,8 @@ const Blog = ({blog, handleAddToShoppingcart}) => {
             <button 
                 onClick={handleButtonClick} 
                 id={`select-button-${id}`} 
-                className={`bg-[#2F80ED] w-full rounded-lg py-2 text-lg font-semibold text-white ${clickedButtons[id] ? 'disabled-button' : ''}`}
-                disabled={clickedButtons[id]}
+                className={`bg-[#2F80ED] w-full rounded-lg py-2 text-lg font-semibold text-white ${clickedButtons[id] || remaining === 0 ? 'disabled-button' : ''}`}
+                disabled={clickedButtons[id] || remaining === 0}
                 >
                     {clickedButtons[id] ? 'Selected' : 'Select'}
                 </button>
