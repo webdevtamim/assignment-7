@@ -1,74 +1,74 @@
 [
     {
-        "ID": 1001,
+        "id": 1001,
         "Cover": "https://i.ibb.co/KrfDJdQ/a.png",
-        "Title": "Introduction to C Programming",
+        "title": "Introduction to C Programming",
         "Desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "Price": 15000,
-        "Credit": 1
+        "Credit": 4
     },
     {
-        "ID": 1002,
+        "id": 1002,
         "Cover": "https://i.ibb.co/7266DfC/b.png",
-        "Title": "Introduction to Algorithms",
+        "title": "Introduction to Algorithms",
         "Desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "Price": 25000,
-        "Credit": 2
+        "Credit": 4
     },
     {
-        "ID": 1003,
+        "id": 1003,
         "Cover": "https://i.ibb.co/ggJScqm/c.png",
-        "Title": "Introduction to C++ for DSA",
+        "title": "Introduction to C++ for DSA",
         "Desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "Price": 10000,
-        "Credit": 10
+        "Credit": 4
     },
     {
-        "ID": 1004,
+        "id": 1004,
         "Cover": "https://i.ibb.co/Z6RTxj0/d.png",
-        "Title": "Basic Data Structures",
+        "title": "Basic Data Structures",
         "Desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "Price": 35000,
-        "Credit": 5
+        "Credit": 4
     },
     {
-        "ID": 1005,
+        "id": 1005,
         "Cover": "https://i.ibb.co/9bT8qvk/e.png",
-        "Title": "Introduction to OOP Python",
+        "title": "Introduction to OOP Python",
         "Desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "Price": 19000,
-        "Credit": 5
+        "Credit": 4
     },
     {
-        "ID": 1006,
+        "id": 1006,
         "Cover": "https://i.ibb.co/ngvKrWN/f.png",
-        "Title": "Software Engineering",
+        "title": "Software Engineering",
         "Desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "Price": 23000,
-        "Credit": 2
+        "Credit": 4
     },
     {
-        "ID": 1007,
+        "id": 1007,
         "Cover": "https://i.ibb.co/WgqF8G3/g.png",
-        "Title": "AWS, Cloud Computing",
+        "title": "AWS, Cloud Computing",
         "Desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "Price": 35000,
-        "Credit": 5
+        "Credit": 4
     },
     {
-        "ID": 1008,
+        "id": 1008,
         "Cover": "https://i.ibb.co/3RQtG0x/h.png",
-        "Title": "Database (MySQL)",
+        "title": "Database (MySQL)",
         "Desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "Price": 19000,
-        "Credit": 5
+        "Credit": 4
     },
     {
-        "ID": 1009,
+        "id": 1009,
         "Cover": "https://i.ibb.co/xzNJ9X7/i.png",
-        "Title": "Problem-Solving Part",
+        "title": "Problem-Solving Part",
         "Desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "Price": 23000,
-        "Credit": 2
+        "Credit": 4
     }
 ]
