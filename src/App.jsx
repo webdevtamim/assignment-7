@@ -9,7 +9,9 @@ function App() {
   const [price, setPrice] = useState('0');
   const [remaining, setRemaining] = useState('20');
 
-  
+  if(remaining === 0){
+    alert('you should have enough remaining credit hours to add more course.')
+  }
 
   const handleAddToShoppingcart = blog =>{
     if (parseInt(remaining) >= parseInt(blog.Credit)) {
