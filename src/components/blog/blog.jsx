@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const Blog = ({blog, handleAddToShoppingcart}) => {
+const Blog = ({blog, handleAddToShoppingcart, remaining}) => {
     const {Cover, title, Desc, Price, Credit, id} = blog;
 
     const [clickedButtons, setClickedButtons] = useState({});
